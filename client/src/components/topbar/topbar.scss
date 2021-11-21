@@ -66,6 +66,7 @@
                     flex-direction: column;
                     justify-content: space-between;
                     cursor: pointer;
+                    overflow: hidden;
 
                     span{
                         width: 100%;
@@ -83,6 +84,7 @@
     &.active{
         background-color:$maincolor;
         color:white;
+        overflow: hidden;
 
 
         .hamburger{
