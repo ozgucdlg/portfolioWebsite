@@ -24,7 +24,7 @@ export default function Topbar( { menuOpen, setMenuOpen }) {
                     
                 </div>
 
-                <h1>hello</h1>
+                
 
                 <div className="right">
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>

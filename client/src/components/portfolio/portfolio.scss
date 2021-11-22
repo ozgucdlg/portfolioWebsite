@@ -6,20 +6,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: $maincolor;
   
 
     h1{
         font-size:50px;
         overflow: hidden;
+
+        @include mobile{
+            font-size: 20px;
+        }
     }
     ul{
         margin:10px 0;
         padding:5px;
         list-style:none;
         display: flex;
-       
 
-        
+        @include mobile{
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content:center;
+        }        
     }
 
     .container{
@@ -29,6 +37,10 @@
         justify-content: center;
         flex-wrap: wrap;
         overflow: hidden;
+
+        @include mobile{
+            width: 100%;
+        }
 
 
         .item{
@@ -44,6 +56,11 @@
              position: relative;
              transition: all 0.5s ease;
              cursor: pointer;
+
+             @include mobile{
+                width: 130px;
+                height: 100px;
+            }
 
             h3{
                 position: absolute;

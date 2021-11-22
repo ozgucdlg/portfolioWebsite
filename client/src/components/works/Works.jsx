@@ -27,18 +27,7 @@ export default function Works() {
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
           },
 
-          {
-            id: 3,
-            title: "Web Design",
-            img:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-          },
-          {
-            id: 4,
-            title: "Web3 Design",
-            img:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-          },
+         
     ];
 
     const handleClick = (way) =>{
